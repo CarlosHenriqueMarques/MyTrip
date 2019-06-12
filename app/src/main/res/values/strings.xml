@@ -4,4 +4,5 @@
     <string name="Preco">Preço</string>
     <string name="Autonomia">Autonomia</string>
     <string name="calcular">Calcular</string>
+    <string name="valores_validos_exception">Por favor, informe valores válidos</string>
 </resources>
