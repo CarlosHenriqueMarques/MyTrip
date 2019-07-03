@@ -11,16 +11,16 @@
         android:orientation="vertical"
         android:layout_height="match_parent">
 
-        <!--
-        <view
+        <View
             android:layout_width="match_parent"
             android:layout_height="3dp"
             android:background="@color/colorPrimaryDark"/>
-         -->
 
         <EditText
             android:id="@+id/editDistance"
             style="@style/mCustomEditTexto"
+            android:digits="0123456789."
+            android:inputType="numberDecimal"
             android:hint="@string/Distancia" />
 
         <TextView
@@ -36,6 +36,8 @@
         <EditText
             android:id="@+id/editPrice"
             android:hint="@string/Preco"
+            android:digits="0123456789."
+            android:inputType="numberDecimal"
             style="@style/mCustomEditTexto"/>
 
         <TextView
@@ -51,6 +53,8 @@
         <EditText
             android:id="@+id/editAutonomy"
             android:hint="@string/Autonomia"
+            android:digits="0123456789."
+            android:inputType="numberDecimal"
             style="@style/mCustomEditTexto"/>
 
         <TextView
