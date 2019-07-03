@@ -9,20 +9,41 @@
     <EditText
         android:id="@+id/editDistance"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorDarkGray"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/roud_et"
         android:hint="@string/Distancia" />
 
     <EditText
         android:id="@+id/editPrice"
+        android:hint="@string/Preco"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/Preco" />
+        android:layout_height="50dp"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorDarkGray"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/roud_et"/>
 
     <EditText
         android:id="@+id/editAutonomy"
+        android:hint="@string/Autonomia"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/Autonomia" />
+        android:layout_height="50dp"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorDarkGray"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:gravity="center"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/roud_et"/>
 
     <TextView
         android:id="@+id/textResult"
