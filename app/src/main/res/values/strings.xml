@@ -5,4 +5,8 @@
     <string name="Autonomia">Autonomia</string>
     <string name="calcular">Calcular</string>
     <string name="valores_validos_exception">Por favor, informe valores válidos</string>
+    <string name="total_de_km">Total de KM</string>
+    <string name="pre_o_por_litro">Preço por litro</string>
+    <string name="km_por_litros">KM por litros</string>
+    <string name="rs_0_00">RS 0,00</string>
 </resources>
